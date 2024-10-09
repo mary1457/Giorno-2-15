@@ -29,7 +29,7 @@ public class Evento {
     private int numeroMassimoPartecipanti;
 
 
-    public Evento(String compleanno, int i, String auguri, TipoEvento privato, int numeroMassimoPartecipanti) {
+    public Evento() {
     }
 
     public Evento(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti) {
